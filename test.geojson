@@ -1,0 +1,95 @@
+{
+    "crs": {
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        },
+        "type": "name"
+    },
+    "features": [
+        {
+            "type": "protocol",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -84.390657153637,
+                            33.780586845823
+                        ],
+                        [
+                            -84.390595786886,
+                            33.779522081014
+                        ],
+                        [
+                            -84.388754784372,
+                            33.779525268952
+                        ],
+                        [
+                            -84.389000251374,
+                            33.7806251006
+                        ],
+                        [
+                            -84.390657153637,
+                            33.780586845823
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "protocol": {
+                    "id": 111,
+                    "name": "HQ Slow Sidewalk",
+                    "created": "2020-06-24 09:00:00",
+                    "fleet": 1,
+                    "plan": 35,
+                    "speed": 5,
+                    "type": "speed_sidewalk_preset",
+                    "priority": 6
+                }
+            }
+        },
+        {
+            "type": "protocol",
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            20.453765498705,
+                            44.825583686199
+                        ],
+                        [
+                            20.46796730078,
+                            44.821020652358
+                        ],
+                        [
+                            20.460562942434,
+                            44.813830988953
+                        ],
+                        [
+                            20.453765498705,
+                            44.817146094835
+                        ],
+                        [
+                            20.453765498705,
+                            44.825583686199
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "protocol": {
+                    "id": 112,
+                    "name": "Trial No Access Zone",
+                    "created": "2020-06-24 09:00:00",
+                    "fleet": 1,
+                    "plan": 35,
+                    "speed": 0,
+                    "type": "speed_preset",
+                    "priority": 1
+                }
+            }
+        }
+    ],
+    "type": "FeatureCollection"
+}
